@@ -14,7 +14,7 @@ A predefined Log Library for quick access when developing projects. Interface-or
 
 ```Go
 import (
-		log "github.com/DeBankDeFi/glog"
+    log "github.com/DeBankDeFi/glog"
 )
 
 func Demo() {
