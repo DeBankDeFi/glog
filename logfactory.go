@@ -1,4 +1,4 @@
-package log
+package glog
 
 type logFactory struct{}
 

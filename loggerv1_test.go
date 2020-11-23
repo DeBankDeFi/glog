@@ -1,6 +1,6 @@
 // +build unittest
 
-package log
+package glog
 
 import (
 	"context"

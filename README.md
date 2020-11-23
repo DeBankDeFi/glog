@@ -1,4 +1,4 @@
-# Log
+# glog
 
 A predefined Log Library for quick access when developing projects. Interface-oriented programming.
 
@@ -13,6 +13,10 @@ A predefined Log Library for quick access when developing projects. Interface-or
 # Quickstart
 
 ```Go
+import (
+		log "github.com/DeBankDeFi/glog"
+)
+
 func Demo() {
     ctx := log.WithTraceId(context.Background(), "696ce42f-a56c-40a7-accf-035671b81ca6")
     logger := log.NewLogFactory().DefaultLogger(log.LevelDebug)

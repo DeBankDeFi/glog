@@ -1,4 +1,4 @@
-package log
+package glog
 
 // LogLevel 日志等级
 type LogLevel uint8
